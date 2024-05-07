@@ -9,7 +9,7 @@ def printer(a):
 
     while row_number < height:
         row_number = row_number + 1
-        
+
         # drawing top part of sand clock
         if row_number <= round((height+1)/2):
             for j in range(a):
